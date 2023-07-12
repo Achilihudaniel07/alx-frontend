@@ -1,9 +1,4 @@
-.button-primary.small {
-    cursor: pointer;
-    background-color: #e1003c;
-    border-color: #e1003c;
-    padding: 16px 24px;
-    font-size: 16px;
+element.style {
 }
 .button-primary {
     color: #fff;
@@ -19,7 +14,6 @@
     transition: transform .3s;
     transform: scale3d(1, 1, 1.01);
 }
-
 .w-button {
     color: #fff;
     line-height: inherit;
@@ -30,4 +24,45 @@
     padding: 9px 15px;
     text-decoration: none;
     display: inline-block;
+}
+a {
+    color: #e1003c;
+    font-family: Aktivgrotesk, Arial, sans-serif;
+    text-decoration: none;
+}
+a {
+    background-color: rgba(0, 0, 0, 0);
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    color: #292728;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+}
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+::selection {
+    color: #252a34;
+    background: #ffebf0;
 }
