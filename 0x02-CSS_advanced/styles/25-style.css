@@ -477,11 +477,7 @@
   .visually-hidden {
     display: none;
   }
-  
-  .card-category {
-    color: var(--color-primary);
-  }
-  
+    
   .section {
     padding: var(--section-padding);
   }
@@ -527,10 +523,6 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .footer {
-    padding: var(--footer-padding);
   }
   
   .navbar-menu {
@@ -581,6 +573,11 @@
     width: 50%;
   }
   
+    
+  .footer {
+    padding: var(--footer-padding);
+  }
+
   .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -613,7 +610,7 @@
     color: var(--color-primary);
   } 
 
- .card-services .card-title{
+ .card-services .card-title {
     margin: 0;
  }
 
@@ -628,5 +625,3 @@
     background-color: var(--color-primary);
     text-decoration: none;
   }
-
-
