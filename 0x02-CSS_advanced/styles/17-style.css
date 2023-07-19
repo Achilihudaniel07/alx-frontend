@@ -446,7 +446,7 @@
     color: var(--color-primary);
   }
 
-  .section{
+  .section {
     padding:var(--section-padding)
   }
   
@@ -455,12 +455,12 @@
     padding: var(--section-header-padding);
   }
 
-  .section-body{
+  .section-body {
     padding: var(--section-body-padding);
   }
 
-  .section-footer{
-    padding: var(--section-footer-align);
+  .section-footer {
+    padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
   }
   
@@ -479,12 +479,12 @@
     font-weight: var(--font-weight-bold);
   }
 
-  .container{
+  .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .footer{
+  .footer {
     padding: var(--footer-padding);
   }
