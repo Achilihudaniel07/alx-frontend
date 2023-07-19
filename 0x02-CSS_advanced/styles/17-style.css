@@ -200,7 +200,7 @@
   [type="button"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+    --webkit-appearance: button;
   }
   
   /**
@@ -292,7 +292,7 @@
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
+    --webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
   
@@ -481,7 +481,8 @@
 
   .container{
     width: 960px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer{
