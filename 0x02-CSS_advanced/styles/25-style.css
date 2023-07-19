@@ -471,7 +471,6 @@
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-
   }
   
   .visually-hidden {
@@ -553,6 +552,12 @@
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
   }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
   ul.row {
     margin: 0;
@@ -573,7 +578,6 @@
     width: 50%;
   }
   
-    
   .footer {
     padding: var(--footer-padding);
   }
@@ -588,12 +592,6 @@
     text-align: right;
   }
   
-  .row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   .footer-address {
     color: var(--text-color);
   }
